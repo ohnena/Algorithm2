@@ -94,7 +94,7 @@ def dfs(x, y, cnt, csum):
 
 
 
-
+# 완전탐색 시작
 for i in range(1, N-1):
     for j in range(1, N-1):
         dfs(i,j,1,costSums[i][j])
